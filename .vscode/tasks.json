@@ -18,8 +18,9 @@
         {
             "label": "build example",
             "type": "shell",
-            "command": "make example",
+            "command": "make",
             "args": [
+                "all",
                 "DEBUG=1",
             ],
             "group": {
